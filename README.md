@@ -1,8 +1,5 @@
-# planets
-Repositorio para el ejercicio de data science. 
-
 #Misión 1: The return of the Data Miner
-La tabla unificada con la geolocalización de los planetas y las variables recogidas en los ficheros data-planets1.csv y data-planets2.csv puede descargarse [aqui](https://github.com/albamesp/planets/blob/master/planets.csv).
+La tabla unificada con la geolocalización de los planetas y las variables recogidas en los ficheros data-planets1.csv y data-planets2.csv puede descargarse [aquí](https://github.com/albamesp/planets/blob/master/planets.csv).
 
 El campo id es establecido como "primary key" que unira las distintas tablas.
 
@@ -16,7 +13,7 @@ Para generar un modelo predictivo con datos espaciales voy a crear un modelo de 
 donde ![\bar{z}](http://mathurl.com/jmscoug.png) es la variable dependiente, ![\bar{x}\bar{\beta}](http://mathurl.com/zuz8wyc.png) son las variables predictivas, ![\bar{v}](http://mathurl.com/h45qg8b.png) es el término de correlación espacial y ![\bar{e}](http://mathurl.com/h9cwv2g.png) representa un error de medida. 
 
 Sección realizada usando la versión de R 3.3.1.
-El script puede ser descargado aqui** y realiza las siguientes tareas:
+El script puede ser descargado [aquí](https://github.com/albamesp/planets/blob/master/planets2.R) y realiza las siguientes tareas:
 
 1) El campo afinidad es asociado a cada uno de los planetas a partir del id
 
