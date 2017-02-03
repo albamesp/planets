@@ -37,6 +37,3 @@ Para la realización de la segunda tarea (encontrar la posición óptima de una 
 donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que daríamos a los distintos planetas en función de la afinidad y población, mientras que ![\beta](http://mathurl.com/2eznoyo.png) parametriza las bases enemigas. En este modelo se ha supuesto que todas son iguales. La función f y el parámetro ![\beta](http://mathurl.com/2eznoyo.png) son variables a ajustar. 
 
 La localización óptima será aquella que minimiza la función de coste. Este problema se puede resolver, por ejemplo, utilizando la función de minimización no lineal "nlm" de R.
-
-(2) ![J_{(d)} = \sum_{i=1}^{n_i} \|\bar{s}-\bar{s}_{i} \|\alpha_{i} + \beta \sum_{j=1}^{n_j} \frac{1} {\|\bar{s}-\bar{s}_{i}\|}](http://mathurl.com/zatgc9p.png)
-donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que daríamos a los distintos planetas, mientras que ![\beta](http://mathurl.com/2eznoyo.png) sería un parametro a ajustar. 
