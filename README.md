@@ -32,7 +32,7 @@ La primera tarea es calcular una matriz de distancias entre las bases enemigas y
 
 Para la realización de la segunda tarea (encontrar la posición óptima de una nueva base aliada), he establecido la siguiente función de coste que favorece aquellas localizaciones (s) cercanas a los planetas (![\mu](http://mathurl.com/z8cg8vq.png)) y lejanas a las bases enemigas (![\xi](http://mathurl.com/jceamjn.png))
 
-(2) ![J_{\bar{s}} = \sum_{i=1}^{n} \alpha_{i}\|\bar{s}-\bar{\mu}_{i} \| + \beta \sum_{j=1}^{m} \frac{1} {\|\bar{s}-\bar{\xi}_{i}\|}](http://mathurl.com/zatgc9p.png)
+(2) ![ J_{\bar{s}} = \sum_{i=1}^{n} \alpha_{i}\|\bar{s}-\bar{\mu}_{i} \| + \beta \sum_{j=1}^{m} \frac{1} {\|\bar{s}-\bar{\xi}_{j}\|}](http://mathurl.com/jx63ul8.png)
 
 donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que daríamos a los distintos planetas en función de la afinidad y población, mientras que ![\beta](http://mathurl.com/2eznoyo.png) parametriza las bases enemigas. En este modelo se ha supuesto que todas son iguales. La función f y el parámetro ![\beta](http://mathurl.com/2eznoyo.png) son variables a ajustar. 
 
