@@ -31,11 +31,16 @@ De forma paralela, un analisis visual de graficos correlacionando la variable af
 [***Figura 2***](https://github.com/albamesp/planets/blob/master/covariates.png)).
 
 Aun asi, pruebo a generar un modelo a partir de las variables con mayor importancia (segun el calculo anterior), pero como era de esperar se cumple la maxima "garbage in-garbage out". Podemos observar la mala capacidad predictiva en su error de crosvalidacion (
-[***Figura 3***](https://github.com/albamesp/planets/blob/master/crossvalidation_m1.png).
+[***Figura 3***](https://github.com/albamesp/planets/blob/master/crossvalidation_m1.png)).
 
 4) Ahora vamos a tratar de determinar si hay algun tipo de estructura espacial (calculamos  ![\bar{v}](http://mathurl.com/h45qg8b.png)). Para ello genero un variograma a partir de los residuos calculados con el modelo anterior ([***Figura 4***] (https://github.com/albamesp/planets/blob/master/residual_nonsp.png)). Debido al mal ajuste del modelo, este variograma no desvela ningun tipo de estructura espacial en ninguna de sus direcciones ([***Figura 5***](https://github.com/albamesp/planets/blob/master/var_anis.png)), por lo que seguir adelante con la interpolacion con kriging no tiene mucho sentido. De haber encontrado un modelo de correlacion espacial decente, usaríamos el nugget del variograma como estimador de ![\bar{e}](http://mathurl.com/h9cwv2g.png) en (1) para determinar ![\bar{z}](http://mathurl.com/jmscoug.png).
 
+#Misión 3: A spatial hope
+La primera tarea es calcular una matriz de distancias entre las bases enemigas y determinar aquellas que se encuentran a menos de 15000 UG ([***Figura 6***]...)
 
+Para la realizacion de la segunda tarea (encontrar la posicion optima de una nueva base aliada) he realizado la siguiente function de coste. 
+
+(2) ![J_{(d)} = \sum_{i=1}^{n_i} \|\bar{s}-\bar{s}_{i} \|\alpha_{i} + \beta \sum_{j=1}^{n_j} \frac{1} {\|\bar{s}-\bar{s}_{i}\|}](http://mathurl.com/zatgc9p.png)
 
 
 
