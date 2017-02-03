@@ -2,7 +2,7 @@
 Repositorio para el ejercicio de data science. 
 
 #Misión 1: The return of the Data Miner
-La tabla unificada con la geolocalizacion de los planetas y las variables recogidas en los ficheros data-planets1.csv y data-planets2.csv puede descargarse [aqui](https://github.com/albamesp/planets/blob/master/planets.csv).
+La tabla unificada con la geolocalización de los planetas y las variables recogidas en los ficheros data-planets1.csv y data-planets2.csv puede descargarse [aqui](https://github.com/albamesp/planets/blob/master/planets.csv).
 
 El campo id es establecido como "primary key" que unira las distintas tablas.
 
