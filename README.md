@@ -38,9 +38,10 @@ Aun asi, pruebo a generar un modelo a partir de las variables con mayor importan
 #Misión 3: A spatial hope
 La primera tarea es calcular una matriz de distancias entre las bases enemigas y determinar aquellas que se encuentran a menos de 15000 UG ([***Figura 6***]...)
 
-Para la realizacion de la segunda tarea (encontrar la posicion optima de una nueva base aliada) he realizado la siguiente function de coste. 
+Para la realizacion de la segunda tarea (encontrar la posicion optima de una nueva base aliada) he establecido la siguiente function de coste que favorece a aquellas localizaciones (s) cercanas a planetas (![s_i](http://mathurl.com/z8cg8vq.png)) y lejanas a bases enemigas (![s_j](http://mathurl.com/jceamjn.png))
 
 (2) ![J_{(d)} = \sum_{i=1}^{n_i} \|\bar{s}-\bar{s}_{i} \|\alpha_{i} + \beta \sum_{j=1}^{n_j} \frac{1} {\|\bar{s}-\bar{s}_{i}\|}](http://mathurl.com/zatgc9p.png)
+donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que dariamos a los distintos planetas, mientras que ![\beta](http://mathurl.com/2eznoyo.png) seria un parametro a ajustar. 
 
 
 
