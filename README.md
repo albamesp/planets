@@ -34,7 +34,7 @@ Para la realización de la segunda tarea (encontrar la posición óptima de una 
 
 (2) ![J_{\bar{s}} = \sum_{i=1}^{n} \alpha_{i}\|\bar{s}-\bar{\mu}_{i} \| + \beta \sum_{j=1}^{m} \frac{1} {\|\bar{s}-\bar{\xi}_{i}\|}](http://mathurl.com/zatgc9p.png)
 
-donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que daríamos a los distintos planetas en función de la afinidad y población, mientras que ![\beta](http://mathurl.com/2eznoyo.png) parametriza las bases enemigas. En este modelo se ha supuesto que todas son iguales. La función ![f] y el parámetro ![\beta] son variables a ajustar. 
+donde ![\alpha_i](http://mathurl.com/hav5gw8.png) = f(affinity, population) establece los pesos que daríamos a los distintos planetas en función de la afinidad y población, mientras que ![\beta](http://mathurl.com/2eznoyo.png) parametriza las bases enemigas. En este modelo se ha supuesto que todas son iguales. La función ![f] y el parámetro ![\beta](http://mathurl.com/2eznoyo.png) son variables a ajustar. 
 
 La localización óptima será aquella que minimiza la función de coste. Este problema se puede resolver, por ejemplo, utilizando la función de minimización no lineal "nlm" de R.
 
